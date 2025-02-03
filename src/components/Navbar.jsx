@@ -18,13 +18,7 @@ const Navbar = () => {
             <NavLink to="/work">Work</NavLink>
           </button>
           <button className="px-[10px] py-[5px] border-[1px] border-[white] hover:bg-[white] hover:text-[black] duration-300">
-            <NavLink to="/users/rohan">User 1</NavLink>
-          </button>
-          <button className="px-[10px] py-[5px] border-[1px] border-[white] hover:bg-[white] hover:text-[black] duration-300">
-            <NavLink to="/users/dipen">User 2</NavLink>
-          </button>
-          <button className="px-[10px] py-[5px] border-[1px] border-[white] hover:bg-[white] hover:text-[black] duration-300">
-            <NavLink to="/users/ayush">User 3</NavLink>
+            <NavLink to="/users">Users</NavLink>
           </button>
         </div>
       </div>
