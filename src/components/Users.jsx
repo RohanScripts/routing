@@ -10,15 +10,23 @@ const Users = () => {
         <div className="w-full h-[100px] border-[2px] border-[white] flex justify-center items-center">
           <div className="w-[70%] h-full ">
             <div className="flex justify-between items-center w-full h-full">
-              <button className="px-[10px] py-[5px] border-[1px] border-[white] hover:bg-[white] hover:text-[black] duration-300">
-                <NavLink to="/users/rohan">User 1</NavLink>
-              </button>
-              <button className="px-[10px] py-[5px] border-[1px] border-[white] hover:bg-[white] hover:text-[black] duration-300">
-                <NavLink to="/users/dipen">User 2</NavLink>
-              </button>
-              <button className="px-[10px] py-[5px] border-[1px] border-[white] hover:bg-[white] hover:text-[black] duration-300">
-                <NavLink to="/users/ayush">User 3</NavLink>
-              </button>
+              <NavLink to="/users/rohan">
+                <button className="px-[10px] py-[5px] border-[1px] border-[white] hover:bg-[white] hover:text-[black] duration-300">
+                  User 1
+                </button>
+              </NavLink>
+
+              <NavLink to="/users/dipen">
+                <button className="px-[10px] py-[5px] border-[1px] border-[white] hover:bg-[white] hover:text-[black] duration-300">
+                  User 2
+                </button>
+              </NavLink>
+
+              <NavLink to="/users/ayush">
+                <button className="px-[10px] py-[5px] border-[1px] border-[white] hover:bg-[white] hover:text-[black] duration-300">
+                  User 3
+                </button>
+              </NavLink>
             </div>
           </div>
         </div>
